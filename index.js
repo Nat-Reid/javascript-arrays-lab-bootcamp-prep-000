@@ -21,4 +21,10 @@ function appendKitten(name){
 function prependKitten(name){
   return [name,...kittens]
 }
+function removeLastKitten(){
+  return kittens.pop()
+}
+function removeFirstKitten(){
+  return kittens.shift()
+}
 // Add your functions and code here
